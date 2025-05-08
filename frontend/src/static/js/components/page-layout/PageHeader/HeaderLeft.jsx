@@ -29,7 +29,9 @@ export function HeaderLeft() {
                     </CircleIconButton>
                   </div>
                 ) : null}
-                <Logo src={logo} href={links.home} title={site.title} />
+                <span style={{ fontSize: '24px' }}>
+                  海外电商<span style={{ color: 'green' }}>课堂</span>
+                </span>
                 {PageStore.get('config-contents').header.onLogoRight ? (
                   <div
                     className="on-logo-right"

@@ -33,5 +33,5 @@ urlpatterns = [
 ]
 
 admin.site.site_header = "MediaCMS Admin"
-admin.site.site_title = "MediaCMS"
+admin.site.site_title = "海外电商课堂"
 admin.site.index_title = "Admin"
